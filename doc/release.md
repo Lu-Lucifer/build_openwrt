@@ -2,19 +2,19 @@
 **测试固件，谨慎下载使用**  
 **测试固件，谨慎下载使用**
 ===cutline===
+
 ### 基本信息
 
-默认 IP：192.168.1.99 | 默认密码：password 
+默认 IP：192.168.1.99 | 默认密码：password
 
 ### 固件差异
 
-|固件 \ 插件 |PassWall |OpenClash |V2rayA |HomeProxy |Nikki |DAED |
-|:---: |:---: |:---: |:---: |:---: |:---: |:---: |
-|ImmortalWrt-18.06 |⭕ |⭕ |⭕ |❌ |❌ |❌ |
-|ImmortalWrt-24.10 |⭕ |❌ |⭕ |⭕ |⭕ |⭕ |
-|Openwrt-24.10 |⭕ |❌ |⭕ |⭕ |⭕ |⭕ |
-|LEDE |⭕ |❌ |⭕ |❌ |⭕ |⭕ |
-|iStoreOS-22.03 |⭕ |⭕ |⭕ |❌ |❌ |❌ |
+|    固件 \ 插件    | PassWall | OpenClash | V2rayA | HomeProxy | Nikki | DAED |
+| :---------------: | :------: | :-------: | :----: | :-------: | :---: | :--: |
+| ImmortalWrt-24.10 |    ⭕    |    ❌     |   ⭕   |    ⭕     |  ⭕   |  ⭕  |
+|   Openwrt-24.10   |    ⭕    |    ❌     |   ⭕   |    ⭕     |  ⭕   |  ⭕  |
+|       LEDE        |    ⭕    |    ❌     |   ⭕   |    ❌     |  ⭕   |  ⭕  |
+|  iStoreOS-22.03   |    ⭕    |    ⭕     |   ⭕   |    ❌     |  ❌   |  ❌  |
 
 `ImmortalWrt-18.06 固件代码太老，其 PassWall 插件不含 sing-box 核心。`
 

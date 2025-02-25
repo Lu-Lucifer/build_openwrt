@@ -71,8 +71,8 @@ move_2_services nas
 popd
 # Nikki
 cp -rf ../openwrt-apps/OpenWrt-nikki ./package/new/luci-app-nikki
-# 晶晨宝盒
-cp -rf ../amlogic/luci-app-amlogic ./package/new/luci-app-amlogic
+# # 晶晨宝盒
+# cp -rf ../amlogic/luci-app-amlogic ./package/new/luci-app-amlogic
 
 #Vermagic
 latest_version="$(curl -s https://github.com/immortalwrt/immortalwrt/tags | grep -Eo "v[0-9\.]+\-*r*c*[0-9]*.tar.gz" | sed -n '/24.10/p' | sed -n 1p | sed 's/v//g' | sed 's/.tar.gz//g')"

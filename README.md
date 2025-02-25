@@ -1,8 +1,6 @@
-<img width="768" src="https://raw.githubusercontent.com/ffuqiangg/build_openwrt/main/img/phicomm-n1.jpg" align="center">
-
 ##
 
-本项目用于编译 `斐讯N1` 使用的 `OpenWrt` `ImmortalWrt` `LEDE` `iStoreOS` 固件。
+本项目用于编译 `ImmortalWrt` 固件。
 
 ### 说明
 
@@ -23,15 +21,4 @@
 
 ### 感谢
 
-- 本项目源自于 [P3TERX](https://p3terx.com) 的 [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) 项目。
-- 固件打包方案来自 [Flippy](https://github.com/unifreq) 的 [openwrt_packit](https://github.com/unifreq/openwrt_packit) 以及 [Ophub](https://github.com/ophub) 的 [amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) 项目。
-- 本项目使用的一部分补丁取自 [YAOF](https://github.com/QiuSimons/YAOF) 项目，仓库重构时也大量参考了该项目。
-- 感谢 [OpenWrt](https://github.com/openwrt/openwrt) , [Immortalwrt](https://github.com/immortalwrt/immortalwrt) , [LEDE](https://github.com/coolsnowwolf/lede) , [IStoreOS](https://github.com/istoreos/istoreos) 等项目以及所有插件作者对开源路由所作的贡献。
-
-##
-
-<p align="center">
-<a href="https://t.me/ffuqiangg"><img src="https://img.shields.io/badge/-Telegram-413f42?style=flat&logo=telegram&logoColor=white"></a>
-<a href="mailto:ffuqiangg@gmail.com"><img src="https://img.shields.io/badge/-Gmail-red?style=flat&logo=gmail&logoColor=white"></a>
-<a href="https://hub.docker.com/u/ffuqiangg"><img src="https://img.shields.io/badge/-Docker-informational?style=flat&logo=docker&logoColor=white"></a>
-<p>
+- 本项目源自于[ffuqiangg/build_openwrt](https://github.com/ffuqiangg/build_openwrt) 项目。
