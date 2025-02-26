@@ -126,7 +126,7 @@ jobs:
           mkdir -p ./artifact/
           cp ${{ env.PACKAGED_OUTPUTPATH }}/*.img.gz ./artifact/
           cd ./artifact/
-          zip N1-ImmortalWrt-${{ env.latest_release }}-${{ env.build_date }}.zip *.img.gz
+          zip ImmortalWrt-${{ env.latest_release }}-${{ env.build_date }}.zip *.img.gz
 
       - name: Upload firmware to release
         uses: ncipollo/release-action@main
@@ -143,7 +143,7 @@ jobs:
       - name: telegram notification
         if: github.event_name == 'repository_dispatch'
         run: |
-          firmware_num="$(curl -fsSL https://github.com/ffuqiangg/build_openwrt/releases/expanded_assets/${{ env.build_date }} | grep -oE "N1-.*.zip" | sort -u | wc -l)"
+          firmware_num="$(curl -fsSL https://github.com/ffuqiangg/build_openwrt/releases/expanded_assets/${{ env.build_date }} | grep -oE "ImmortalWrt-.*.zip" | sort -u | wc -l)"
           MSG="
           *${{ env.build_date }}* 固件编译完成
           https://github.com/ffuqiangg/build\_openwrt/releases/tag/${{ env.build_date }}
